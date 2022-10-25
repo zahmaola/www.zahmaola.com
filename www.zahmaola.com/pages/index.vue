@@ -1,6 +1,12 @@
 <template>
-
-
+  <div>
+    <Hero />
+    <About />
+    <Features />
+    <Download />
+    <Contact />
+    
+  </div>
 </template>
 
 <script>

@@ -18,9 +18,18 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css' },
+
+
+    ],
+    script: [
+      { src: "https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" },
+      { src: "../assete/js/bootstrap.bundle.min.js"},
     ]
+
   },
+
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
@@ -28,6 +37,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -41,7 +51,41 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
+    '@nuxtjs/i18n',
+    '@nuxtjs/axios'
   ],
+  i18n: {
+    /* module options */
+    defaultLocale: 'ar',
+    locales: [
+      {
+        code: 'en',
+        file: 'en.json',
+        dir: 'ltr'
+
+
+      },
+      {
+        code: 'ar',
+        file: 'ar.json',
+        dir: 'rtl'
+
+
+      }
+    ],
+    lazy: true,
+    langDir: 'locales/',
+    vueI18n:{
+      fallbackLocal: 'ar',
+      defaultDirection: 'rtl',
+    }
+  },
+  plugins: [
+    '~/plugins/i18n.js',
+  ],
+  axios: {
+    baseURL:"/",
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
