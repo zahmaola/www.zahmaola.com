@@ -14,8 +14,25 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { hid: 'description', name: 'description', content: 'Zahma O La is your fastest destination to know the status of traffic in King Fahd Causeway. the link between KSA and Bahrain' },
+      { hid: 'keywords', name: 'keywords', content: 'zahma, bahrain, ksa, travel, khobar, eastern, zahma o la, king fahad causeway' },
+      { name: 'format-detection', content: 'telephone=no' },
+      { hid: 'author:text', name: 'author', content: 'Zahma O La' },
+      { hid: 'og:type', name: 'og:type', content: 'website' },
+      { hid: 'og:title', name: 'og:title', content: 'Zahma O La' },
+      { hid: 'og:description', name: 'og:description', content: 'Zahma O La is your fastest destination to know the status of traffic in King Fahd Causeway. the link between KSA and Bahrain' },
+      { hid: 'og:image', name: 'og:image', content: '../static/socialicon.png' },
+      { hid: 'og:url', name: 'og:url', content: 'https://www.zahmaola.com' },
+      { hid: 'og:site_name', name: 'og:site_name', content: 'Zahma O La' },
+      { hid: 'twitter:card', name: 'twitter:card', content: '../static/socialicon.png'},
+      { hid: 'twitter:title', name: 'twitter:title', content: 'Zahma O La '},
+      { hid: 'twitter:description', name: 'twitter:description', content: 'Zahma O La is your fastest destination to know the status of traffic in King Fahd Causeway. the link between KSA and Bahrain'},
+      { hid: 'twitter:image', name: 'twitter:image', content: '../static/socialicon.png'},
+      // { hid: 'twitter:url', name: 'twitter:url', content: 'https://www.zahmaola.com'},
+      // { hid: 'twitter:site', name: 'twitter:site', content: ''},
+      // { hid: 'twitter:creator', name: 'twitter:creator', content: ''},
+
+
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
