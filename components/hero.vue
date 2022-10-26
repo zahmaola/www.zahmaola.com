@@ -10,7 +10,7 @@
                 ? 'transform: scaleX(-1);left:0;'
                 : 'right:0;'
             "
-            src="../assete/herobackground.svg"
+            src="~/img/herobackground.svg"
             alt=""
           />
           <img
@@ -21,7 +21,7 @@
                 ? 'margin-right: 0%;  -webkit-transform: scaleX(-1);'
                 : 'margin-left: 0%;'
             "
-            src="../assete/zahmahero.svg"
+            src="~/img/zahmahero.svg"
             alt=""
           />
 
@@ -36,7 +36,7 @@
               <a
                 href="https://apps.apple.com/us/app/%D8%B2%D8%AD%D9%85%D8%A9-%D8%A3%D9%88-%D9%84%D8%A7-zahma-o-la/id654895985"
               >
-                <img src="../assete/AppStore.svg" alt=""
+                <img src="~/img/AppStore.svg" alt=""
               /></a>
             </li>
 
@@ -44,7 +44,7 @@
               <a
                 href="https://play.google.com/store/apps/details?id=com.zahmaola.zahma"
               >
-                <img src="../assete/GooglePlay.svg" alt=""
+                <img src="~/img/GooglePlay.svg" alt=""
               /></a>
             </li>
           </ul>
