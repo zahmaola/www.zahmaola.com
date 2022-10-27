@@ -1,0 +1,18 @@
+.rtl{
+    direction: rtl;
+    .me-auto {
+        margin-right:0 !important;
+        margin-left:auto !important;
+    }
+
+
+    .list-inline {
+        padding-left: initial;
+        padding-right: 0;
+    }
+
+    .list-inline-item:not(:last-child) {
+        margin-right: 0;
+        margin-left: 0.5rem;
+    }
+}

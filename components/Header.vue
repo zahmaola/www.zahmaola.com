@@ -5,10 +5,10 @@
       <a class="navbar-brand py-5" href="/">
         <img
           v-if="this.$dir() == 'rtl'"
-          src="~/img/arlogo.svg"
+          src="~/assets/img/arlogo.svg"
           alt="Zahma O La"
         />
-        <img v-else src="~/img/zahmaolalogo.svg" alt="Zahma O La" />
+        <img v-else src="~/assets/img/zahmaolalogo.svg" alt="Zahma O La" />
       </a>
       <button
         class="navbar-toggler border-0"
@@ -22,7 +22,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0" :dir="this.$dir()">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a
               style="color: #595959"
