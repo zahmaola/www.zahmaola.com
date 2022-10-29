@@ -1,8 +1,8 @@
 <template>
-  <div :dir="this.$dir()">
-    <zheader />
+  <div :class="this.$dir()">
+    <Header />
     <Nuxt />
-     <zfooter />
+    <Footer />
 
   </div>
 </template>
