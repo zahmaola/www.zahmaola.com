@@ -1,5 +1,4 @@
 <template>
-
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container">
       <a class="navbar-brand py-5" href="/">
@@ -48,8 +47,8 @@
             }}</a>
           </li>
         </ul>
-       <span class="navbar-text">
-           <nuxt-link
+        <span class="navbar-text">
+          <nuxt-link
             class="btn btn-lg fw-normal"
             style="background: #38b980; color: white"
             v-for="locale in availableLocales"
@@ -58,17 +57,10 @@
           >
             {{ $t("navlang") }}
           </nuxt-link>
-
-       </span>
-
-
-
+        </span>
       </div>
     </div>
   </nav>
-
-
-
 </template>
 
 <script>

@@ -16,3 +16,49 @@
         margin-left: 0.5rem;
     }
 }
+
+.about{
+    color: #38B980;
+}
+#contact{
+    box-shadow: 0px 4px 29px rgba(0, 0, 0, 0.09);
+    background: url("assets/img/contact.png");
+    // background-position:left;
+    background-repeat: no-repeat;
+}
+
+
+.download{
+    box-shadow: 0px 4px 29px rgba(0, 0, 0, 0.09)
+}
+
+.card-feature{
+    background: #38b980
+}
+
+.card-feature:hover{
+    transition: all .3s;
+    transform: scale(1.1);
+    z-index: 5;
+
+    
+}
+
+.card-bg:hover {
+    background: linear-gradient(
+      180deg,
+      #38b980 17.2%,
+      rgba(235, 224, 104, 0.9) 100%
+
+    );
+  }
+
+  hr.myhrline{
+    margin: 0px;
+    width: 100%;
+ }
+
+//  .bg{
+//     background-image: url("assets/img/contact.png");
+//     // background-position: left;
+//  }

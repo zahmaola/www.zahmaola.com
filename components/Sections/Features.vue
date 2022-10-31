@@ -14,14 +14,22 @@
       >
         <div class="col mb-5">
           <div
-            class="card h-100 overflow-hidden text-white rounded-5 border-0"
-            style="background: #38b980"
+            class="
+              card
+              h-100
+              overflow-hidden
+              text-white
+              rounded-5
+              border-0
+              card-feature
+            "
           >
-            <div class="liner card-body" style="height: 412.66px">
+            <div class="card-bg card-body" style="height: 412.66px">
               <div
                 class="
                   content
-                  p-4
+                  py-4
+                  px-2
                   d-flex
                   flex-column
                   justify-content-center
@@ -53,19 +61,27 @@
 
         <div class="col mb-5">
           <div
-            class="card h-100 overflow-hidden text-white rounded-5 border-0"
-            style="background: #38b980"
+            class="
+              card
+              h-100
+              overflow-hidden
+              text-white
+              rounded-5
+              border-0
+              card-feature
+            "
           >
-            <div class="liner card-body">
+            <div class="card-bg card-body">
               <div
                 class="
                   content
-                  p-4
+                  py-4
+                  px-2
                   d-flex
                   flex-column
                   justify-content-center
                   text-center
-                   align-items-center
+                  align-items-center
                 "
               >
                 <svg
@@ -95,19 +111,27 @@
 
         <div class="col mb-5">
           <div
-            class="card h-100 overflow-hidden text-white rounded-5 border-0"
-            style="background: #38b980"
+            class="
+              card
+              h-100
+              overflow-hidden
+              text-white
+              rounded-5
+              border-0
+              card-feature
+            "
           >
-            <div class="liner card-body">
+            <div class="card-bg card-body">
               <div
                 class="
                   content
-                  p-4
+                  py-4
+                  px-2
                   d-flex
                   flex-column
                   justify-content-center
                   text-center
-                   align-items-center
+                  align-items-center
                 "
               >
                 <svg
@@ -136,14 +160,22 @@
 
         <div class="col mb-5">
           <div
-            class="card h-100 overflow-hidden text-white rounded-5 border-0"
-            style="background: #38b980"
+            class="
+              card
+              h-100
+              overflow-hidden
+              text-white
+              rounded-5
+              border-0
+              card-feature
+            "
           >
-            <div class="liner card-body">
+            <div class="card-bg card-body">
               <div
                 class="
                   content
-                  p-4
+                  py-4
+                  px-2
                   d-flex
                   flex-column
                   justify-content-center
@@ -158,7 +190,6 @@
                   fill="currentColor"
                   class="bi bi-phone-vibrate"
                   viewBox="0 0 16 16"
-
                 >
                   <path
                     d="M10 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4zM6 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H6z"
@@ -179,11 +210,4 @@
 </template>
 
 <style >
-.liner:hover {
-  background: linear-gradient(
-    180deg,
-    #38b980 17.2%,
-    rgba(235, 224, 104, 0.9) 100%
-  );
-}
 </style>
