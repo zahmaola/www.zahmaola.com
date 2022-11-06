@@ -1,10 +1,10 @@
 <template>
   <div>
-    <Hero />
-    <About />
-    <Features />
-    <Download />
-    <Contact />
+    <SectionsHero />
+    <SectionsAbout />
+    <SectionsFeatures />
+    <SectionsDownload />
+    <SectionsContact />
     
   </div>
 </template>
