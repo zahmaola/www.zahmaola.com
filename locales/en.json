@@ -1,4 +1,6 @@
 {
+  "title":"Zahma O La",
+  "description":"Your destination to know the status at King Fahd Causway",
   "navabout": "About",
   "navfeatures": "Features",
   "navdownload": "Download",
@@ -32,8 +34,7 @@
   "privacytitle": "Privacy Policy for Zahma O La",
   "privacy1st":" At Zahma O La, accessible from zahmaola.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Zahma O La and how we use it.",
   "privacy2nd":"If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.",
-  "privacy3rd":"This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Zahma O La. This policy is not applicable to any information collected offline or via channels other than this website. Our Privacy Policy was created with the help of the",
-  "3rdlink":"Free Privacy Policy Generator",
+  "privacy3rd":"This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Zahma O La. This policy is not applicable to any information collected offline or via channels other than this website.",
   "Consent":"Consent",
   "Consentdesc":"By using our website, you hereby consent to our Privacy Policy and agree to its terms.",
   "informationwecollect":"Informatio we collect",

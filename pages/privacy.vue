@@ -11,8 +11,7 @@
 
     <p>
       {{ $t("privacy3rd") }}
-      <a href="https://www.privacypolicygenerator.info/">{{ $t("3rdlink") }}</a
-      >.
+     
     </p>
     </div>
 
@@ -113,3 +112,35 @@
      </div>
   </section>
 </template>
+
+
+
+<script>
+export default {
+  head() {
+    return {
+      title: this.$t("footerprivacy") + " - " + this.$t('title'),
+
+      //titleTemplate: null
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: this.$t("description"),
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: this.$t("footerprivacy") + " - " + this.$t('title'),
+        },
+        {
+          hid: "twitter:description",
+          name: "twitter:description",
+          content: this.$t("description"),
+        },
+      ],
+    };
+  },
+  
+}
+</script>

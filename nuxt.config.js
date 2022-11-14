@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'www.zahmaola.com',
+    title: 'زحمة أو لا - وجهتك لمعرفه حاله السير في جسر الملك فهد',
     htmlAttrs: {
       lang: 'en'
     },
