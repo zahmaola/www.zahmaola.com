@@ -1,0 +1,31 @@
+.about{
+    color: #38B980;
+}
+
+.feature-card{
+    background: #38b980;
+    height: 412.66px
+}
+
+.feature-body{
+    height: 412.66px;
+
+
+}
+
+.feature-body:hover {
+    background: linear-gradient(
+      180deg,
+      #38b980 17.2%,
+      rgba(235, 224, 104, 0.9) 100%
+    );
+  }
+
+
+  .download{
+    box-shadow: 0px 4px 29px rgba(0, 0, 0, 0.09)
+
+  }
+  #contact{
+    box-shadow: 0px 4px 29px rgba(0, 0, 0, 0.09)
+  }
