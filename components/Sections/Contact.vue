@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="g-0">
+    <div class="container-fluid g-0">
       <div class="row">
         <div
           class="col px-1"
