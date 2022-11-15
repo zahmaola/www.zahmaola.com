@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container">
-      <a class="navbar-brand py-5" href="/">
+      <a class="navbar-brand py-5" :href="`${localePath('/')}`"  >
         <img
           v-if="this.$dir() == 'rtl'"
           src="~/assets/img/arlogo.svg"
@@ -25,27 +25,31 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+         
+
+
           <li class="nav-item">
             <a
               style="color: #595959"
               class="nav-link active"
               aria-current="page"
-              href="#about"
+             :href="localePath('/#about')" 
               >{{ $t("navabout") }}</a
             >
           </li>
           <li class="nav-item">
-            <a style="color: #595959" class="nav-link" href="#features">{{
+            <a style="color: #595959" class="nav-link" :href="localePath('/#features')">{{
               $t("navfeatures")
             }}</a>
           </li>
           <li class="nav-item">
-            <a style="color: #595959" class="nav-link" href="#download">{{
+            <a style="color: #595959" class="nav-link" :href="localePath('/#download')" >{{
               $t("navdownload")
             }}</a>
           </li>
           <li class="nav-item">
-            <a style="color: #595959" class="nav-link" href="#contact">{{
+            <a style="color: #595959" class="nav-link" :href="localePath('/#contact')"  >{{
               $t("navcontact")
             }}</a>
           </li>

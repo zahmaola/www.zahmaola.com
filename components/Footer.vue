@@ -12,11 +12,16 @@
               {{ $t("footeroperated") }}
             </li>
           </a>
+          
 
           <li class="list-inline-item fw-light px-2">
-            <NuxtLink to="privacy" style="text-decoration: none; color: black">
+
+             <a style="text-decoration: none; color: black"  :href="localePath('/privacy')"  >
               {{ $t("footerprivacy") }}
-            </NuxtLink>
+            </a>
+
+
+           
           </li>
         </ul>
       </div>
