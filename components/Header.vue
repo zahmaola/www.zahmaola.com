@@ -6,8 +6,11 @@
           v-if="this.$dir() == 'rtl'"
           src="~/assets/img/arlogo.svg"
           alt="Zahma O La"
+          width="93.18px"
+          height="100px"
         />
-        <img v-else src="~/assets/img/zahmaolalogo.svg" alt="Zahma O La" />
+        <img v-else src="~/assets/img/zahmaolalogo.svg" alt="Zahma O La"   width="93.18px"
+          height="100px" />
       </a>
       <button
         class="navbar-toggler border-0"
@@ -47,15 +50,15 @@
             }}</a>
           </li>
         </ul>
-        <span class="navbar-text">
+        <span >
           <nuxt-link
-            class="btn btn-lg fw-normal"
-            style="background: #38b980; color: white"
+            class="btn btn-lg fw-normal lang "
+           
             v-for="locale in availableLocales"
             :key="locale.code"
             :to="switchLocalePath(locale.code)"
           >
-            {{ $t("navlang") }}
+            <span class="">{{ $t("navlang") }}</span>
           </nuxt-link>
         </span>
       </div>

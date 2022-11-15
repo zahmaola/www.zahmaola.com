@@ -1,20 +1,28 @@
 <template>
-  <section id="contact" :style="this.$dir() == 'rtl' ? 'background-position:right;' : 'background-position:left;'">
-    <div class="container g-0"  >
-      <div class="row g-0"  >
-        <div class="col">
+  <section>
+    <div class="g-0">
+      <div class="row">
+        <div
+          class="col px-1"
+          id="contact"
+          :style="
+            this.$dir() == 'rtl'
+              ? 'background-position:right top;'
+              : 'background-position:left top;'
+          "
+        >
           <div class="card p-3 border-0 bg-transparent">
-            <div class="card-body">
+            <div class="card-body px-5">
               <div class="row row-cols-1 row-cols-md-2">
-                <div class="col col-md-6 py-5">
-                  <h1 class="fw-bold py-5">{{ $t("contacttitle") }}</h1>
+                <div class="col col-md-6">
+                  <h1 class="fw-bolder py-5 ">{{ $t("contacttitle") }}</h1>
                   <div class="ps-4">
                     <a
                       style="text-decoration: none; color: #222222"
                       href="tel:+966-558412255"
                     >
                       <i class="bi bi-telephone p-3" style="color: #38b980"></i
-                      ><span dir="ltr">+966-1896319</span></a
+                      ><span dir="ltr">+966 55 841 2255</span></a
                     >
                     <hr width="50%" />
                     <a

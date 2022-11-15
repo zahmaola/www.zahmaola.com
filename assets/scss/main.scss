@@ -1,3 +1,13 @@
+@import '_fonts.scss';
+
+h1{
+    font-family: 'Almarai', sans-serif;
+}
+
+p{
+    font-family: 'Almarai', sans-serif;
+}
+
 .rtl{
     direction: rtl;
     .me-auto {
@@ -14,18 +24,66 @@
     .list-inline-item:not(:last-child) {
         margin-right: 0;
         margin-left: 0.5rem;
+        
     }
 }
+
+
+
+
+
+
+@media (max-width: 480px) {
+   
+    #hero .herobg{
+        margin-bottom: 1000px;
+        display: none;
+
+    }
+ 
+  }
 
 .about{
     color: #38B980;
 }
-#contact{
+
+#contact {
     box-shadow: 0px 4px 29px rgba(0, 0, 0, 0.09);
-    background: url("assets/img/contact.png");
+    background-image: url("assets/img/contact.svg");
+    
+    
     // background-position:left;
     background-repeat: no-repeat;
 }
+@media (max-width: 480px) {
+    #contact {
+        background-size: contain;
+        
+    }
+    #contact hr {
+        width: 100%;
+    }
+  }
+
+  @media (max-width: 896px) {
+    #contact {
+        background-size: contain;
+    }
+  }
+  @media (max-width: 720px) {
+    #contact {
+        background-size:80% ;
+        
+    }
+  }
+  @media (max-width: 667px) {
+    #contact {
+        background-size: contain;
+      
+   
+      
+    }
+  }
 
 
 .download{
@@ -56,9 +114,31 @@
   hr.myhrline{
     margin: 0px;
     width: 100%;
+    // color: linear-gradient(90deg, #38B980 0%, rgba(235, 224, 104, 0.9) 31.25%, rgba(208, 103, 65, 0.97) 74.48%, #C73C34 100%);
+    // border: 1px solid ;
+
+    background: linear-gradient(90deg, #38B980 0%, rgba(235, 224, 104, 0.9) 31.25%, rgba(208, 103, 65, 0.97) 74.48%, #C73C34 100%);; 
+    height: 3px; 
+    border: 0;
+   
+    
+
  }
 
-//  .bg{
-//     background-image: url("assets/img/contact.png");
-//     // background-position: left;
-//  }
+ .lang{
+   background: #38b980; 
+   color: white;
+
+
+ }
+
+ .lang:hover{
+    background: white;
+    color: #38B980;
+
+    border-color: #38B980;
+    
+
+ }
+
+

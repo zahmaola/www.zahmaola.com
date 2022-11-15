@@ -2,7 +2,7 @@
   <section id="features" class="pt-5 my-5">
     <div class="container">
       <div class="text-center">
-        <h1 class="fw-bold">{{ $t("feattureswhy") }}</h1>
+        <h1 class="fw-bolder">{{ $t("feattureswhy") }}</h1>
       </div>
       <div
         class="
@@ -24,7 +24,7 @@
               card-feature
             "
           >
-            <div class="card-bg card-body" style="height: 412.66px">
+            <div class="card-bg card-body" style="height: 420.66px">
               <div
                 class="
                   content

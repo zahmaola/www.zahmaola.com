@@ -1,7 +1,7 @@
 <template>
-  <div class="container">
-    <div class="row py-5">
-      <div class="col-md-8 col-sm-6 col-xs-12">
+  <div class="container py-5">
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col">
         <ul class="list-inline">
           <a
             class="text-dark"
@@ -18,20 +18,42 @@
               {{ $t("footerprivacy") }}
             </NuxtLink>
           </li>
-
-          <!-- <a class="text-dark" title="" href="#">
-          <li class="list-inline-item fw-light">
-            {{ $t("footerterms") }}
-          </li>
-              </a> -->
         </ul>
       </div>
 
-      <div class="col col-md-2 col-sm-6 col-xs-12">
-        <p class="fw-light">
-          {{ $t("footercopyrights") }}
-        </p>
+      <div class="col">
+        <ul 
+            class="list-inline fw-light fs-4"
+            :class="this.$dir() == 'rtl'
+                ? 'text-start'
+                : 'text-end'">
+          <li class="list-inline-item mx-2">
+            <a
+              class="text-dark"
+              href="https://instagram.com/zahma_ola?igshid=YmMyMTA2M2Y="
+              title="Zahma O La instagram"
+            >
+              <i class="bi bi-instagram"></i>
+            </a>
+          </li>
+          <li class="list-inline-item mx-2">
+            <a
+              class="text-dark"
+              href="https://twitter.com/zahma_ola"
+              title="Zahma O La twitter"
+            >
+              <i class="bi bi-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item mx-2">
+            <a class="text-dark" href="https://www.linkedin.com/company/86810077/admin/analytics/followers/"> <i class="bi bi-linkedin"></i> </a>
+          </li>
+        </ul>
       </div>
     </div>
+    <hr />
+    <p class="fw-light text-center py-2">
+      {{ $t("footercopyrights") }}
+    </p>
   </div>
 </template>

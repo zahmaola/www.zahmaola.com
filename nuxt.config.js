@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'زحمة أو لا - وجهتك لمعرفه حاله السير في جسر الملك فهد',
+    title: 'Zahma O La',
     htmlAttrs: {
       lang: 'en'
     },
@@ -28,32 +28,52 @@ export default {
       { hid: 'twitter:title', name: 'twitter:title', content: 'Zahma O La '},
       { hid: 'twitter:description', name: 'twitter:description', content: 'Zahma O La is your fastest destination to know the status of traffic in King Fahd Causeway. the link between KSA and Bahrain'},
       { hid: 'twitter:image', name: 'twitter:image', content: '~/static/socialicon.png'},
-      // { hid: 'twitter:url', name: 'twitter:url', content: 'https://www.zahmaola.com'},
-      // { hid: 'twitter:site', name: 'twitter:site', content: ''},
-      // { hid: 'twitter:creator', name: 'twitter:creator', content: ''},
 
+      { hid: 'smartbanner:title', name: 'smartbanner:title', content: 'Zahma O La'},
+      { hid: 'smartbanner:author', name: 'smartbanner:author', content: 'Promotion Efficiency'},
 
+      {hid: 'smartbanner:price', name: 'smartbanner:price', content: 'FREE'},
+      {hid: 'smartbanner:price-suffix-apple', name: 'smartbanner:price-suffix-apple', content: ' - On the App Store'},
+      {hid: 'smartbanner:price-suffix-google', name: 'smartbanner:price-suffix-google', content: ' - In Google Play'},
+      {hid: 'smartbanner:icon-google', name: 'smartbanner:icon-google', content: '/favicon.ico'},
+      {hid: 'smartbanner:icon-apple', name: 'smartbanner:icon-apple', content: '/favicon.ico'},
+      {hid: 'smartbanner:button', name: 'smartbanner:button', content: 'VIEW'},
+      {hid: 'smartbanner:button-url-apple', name: 'smartbanner:button-url-apple', content: 'https://apps.apple.com/us/app/zahma-o-la/id1549790008'},
+      {hid: 'smartbanner:button-url-google', name: 'smartbanner:button-url-google', content: 'https://play.google.com/store/apps/details?id=com.zahmaola'},
+      {hid: 'smartbanner:enabled-platforms', name: 'smartbanner:enabled-platforms', content: 'android,ios'},
+      {hid: 'smartbanner:close-label', name: 'smartbanner:close-label', content: 'Close'},
     ],
+  
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {rel: 'stylesheet', href: '//cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css' },
       {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' },
+      
 
-
+      {rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+      {rel: 'preconnect', href: 'https://fonts.gstatic.com'},
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://cdnjs.cloudflare.com/ajax/libs/smartbanner.js/1.19.1/smartbanner.css'
+      }
     ],
+ 
     script: [
       { src: "//cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" },
       { src: "../assete/js/bootstrap.bundle.min.js"},
       { src: "//webforms.pipedrive.com/f/loader"},
+      { src: "https://cdnjs.cloudflare.com/ajax/libs/smartbanner.js/1.19.1/smartbanner.js"},
       
     ]
-
   },
-
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-		'~/assets/scss/main.scss'
+		'~/assets/scss/main.css'
 	],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -110,5 +130,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+ 
 }

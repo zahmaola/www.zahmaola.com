@@ -1,0 +1,114 @@
+h1 {
+    font-family: 'Almarai', sans-serif;
+  }
+  
+  p {
+    font-family: 'Almarai', sans-serif;
+  }
+  
+  .rtl {
+    direction: rtl;
+  }
+  
+  .rtl .me-auto {
+    margin-right: 0 !important;
+    margin-left: auto !important;
+  }
+  
+  .rtl .list-inline {
+    padding-left: initial;
+    padding-right: 0;
+  }
+  
+  .rtl .list-inline-item:not(:last-child) {
+    margin-right: 0;
+    margin-left: 0.5rem;
+  }
+  
+  @media (max-width: 480px) {
+    #hero .herobg {
+      margin-bottom: 1000px;
+      display: none;
+    }
+  }
+  
+  .about {
+    color: #38B980;
+  }
+  
+  #contact {
+    -webkit-box-shadow: 0px 4px 29px rgba(0, 0, 0, 0.09);
+            box-shadow: 0px 4px 29px rgba(0, 0, 0, 0.09);
+    background-image: url("assets/img/contact.svg");
+    background-repeat: no-repeat;
+  }
+  
+  @media (max-width: 480px) {
+    #contact {
+      background-size: contain;
+    }
+    #contact hr {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 896px) {
+    #contact {
+      background-size: contain;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    #contact {
+      background-size: 80%;
+    }
+  }
+  
+  @media (max-width: 667px) {
+    #contact {
+      background-size: contain;
+    }
+  }
+  
+  .download {
+    -webkit-box-shadow: 0px 4px 29px rgba(0, 0, 0, 0.09);
+            box-shadow: 0px 4px 29px rgba(0, 0, 0, 0.09);
+  }
+  
+  .card-feature {
+    background: #38b980;
+  }
+  
+  .card-feature:hover {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    z-index: 5;
+  }
+  
+  .card-bg:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(17.2%, #38b980), to(rgba(235, 224, 104, 0.9)));
+    background: linear-gradient(180deg, #38b980 17.2%, rgba(235, 224, 104, 0.9) 100%);
+  }
+  
+  hr.myhrline {
+    margin: 0px;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, right top, from(#38B980), color-stop(31.25%, rgba(235, 224, 104, 0.9)), color-stop(74.48%, rgba(208, 103, 65, 0.97)), to(#C73C34));
+    background: linear-gradient(90deg, #38B980 0%, rgba(235, 224, 104, 0.9) 31.25%, rgba(208, 103, 65, 0.97) 74.48%, #C73C34 100%);
+    height: 3px;
+    border: 0;
+  }
+  
+  .lang {
+    background: #38b980;
+    color: white;
+  }
+  
+  .lang:hover {
+    background: white;
+    color: #38B980;
+    border-color: #38B980;
+  }
+  /*# sourceMappingURL=main.css.map */
