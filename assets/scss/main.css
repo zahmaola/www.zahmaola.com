@@ -113,10 +113,31 @@ h1 {
   }
   /*# sourceMappingURL=main.css.map */
 
+  
   @media (min-width: 1470px){
 
 
-    #hero.container{
+    #hero .container{
         max-width: 1370px !important;
     }
   }
+
+  @media (min-width: 769px){
+
+
+    #hero .container{
+        max-width: 1025px !important;
+    }
+  }
+
+  @media (min-width: 1025px){
+
+
+    #hero .container{
+        max-width: 1201px !important;
+    }
+  }
+
+
+ 
+
