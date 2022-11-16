@@ -17,12 +17,12 @@
           <div>
             <img
               v-if="this.$dir() == 'rtl'"
-              style="z-index: 1 mt-"
+              style="z-index: 1 "
               class="img-fluid herobg "
               :style="
                 this.$dir() == 'ltr '
-                  ? 'margin-right: 0%;  -webkit-transform: scaleX(-1);'
-                  : 'margin-left: 0%;'
+                  ? 'margin-right: -5%;  -webkit-transform: scaleX(-1);'
+                  : 'margin-left: -5%;'
               "
               src="~/assets/img/zahmaOLaAr.svg"
               alt=""
@@ -34,8 +34,8 @@
               class="img-fluid herobg"
               :style="
                 this.$dir() == 'rtl'
-                  ? 'margin-right: 0%;  -webkit-transform: scaleX(-1);'
-                  : 'margin-left: 0%;'
+                  ? 'margin-right: -5%;  -webkit-transform: scaleX(-1);'
+                  : 'margin-left: -5%;'
               "
               src="~/assets/img/zahmahero.svg"
               alt=""
