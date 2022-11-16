@@ -14,14 +14,14 @@
           <div class="card py-3  border-0 bg-transparent">
             <div class="card-body">
               <div class="row row-cols-1 row-cols-md-2">
-                <div class="col col-md-6 px-3 py-5">
+                <div class="col col-md-6 px-3 py-3">
                   <h1 class="fw-bolder py-5 ">{{ $t("contacttitle") }}</h1>
                   <div class="ps-4">
                     <a
                       style="text-decoration: none; color: #222222"
                       href="tel:+966-558412255"
                     >
-                      <i class="bi bi-telephone p-3" style="color: #38b980"></i
+                      <i class="bi bi-telephone fs-5 p-2" style="color: #38b980"></i
                       ><span dir="ltr">+966 55 841 2255</span></a
                     >
                     <hr width="50%" />
@@ -29,7 +29,7 @@
                       style="text-decoration: none; color: #222222"
                       href="mailto:contact@zahmaola.com.sa"
                     >
-                      <i class="bi bi-envelope p-3" style="color: #38b980"></i>
+                      <i class="bi bi-envelope fs-5  p-2" style="color: #38b980"></i>
                       Contact@zahmaola.com</a
                     >
                     <hr width="50%" />

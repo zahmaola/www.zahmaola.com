@@ -43,6 +43,19 @@ p{
  
   }
 
+  @media (min-width: 1470px){
+
+
+    .container #hero{
+        max-width: 1370px !important;
+    }
+  }
+
+
+ 
+
+  
+
 .about{
     color: #38B980;
 }
@@ -59,6 +72,10 @@ p{
     #contact {
         background-size: contain;
         
+        
+    }
+    #contact hr {
+        width: 100%;
     }
     #contact hr {
         width: 100%;
@@ -72,7 +89,7 @@ p{
   }
   @media (max-width: 720px) {
     #contact {
-        background-size:80% ;
+        background-size:contain ;
         
     }
   }

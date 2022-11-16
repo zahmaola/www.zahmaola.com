@@ -1,27 +1,26 @@
 <template>
   <section id="hero" class="py-5">
-    <div class="container">
+    <div class="container" style=" max-width: 1370px !important;">
       <div class="row flex-md-row-reverse align-items-center g-4 g-md-5">
-        <div class="col col-md-6 ">
+        <div class="col col-md-6">
           <img
           class="herobg"
             style="z-index: -1; position: absolute"
             :style="
               this.$dir() == 'rtl'
-                ? 'transform: scaleX(-1);left:0;'
-                : 'right:0;'
+                ? 'transform: scaleX(-1);left:0%;'
+                : 'right:0%;'
             "
             src="~/assets/img/herobackground.svg"
             alt=""
           />
-          <div>
-            <img
+           <img
               v-if="this.$dir() == 'rtl'"
-              style="z-index: 1 "
+              style="z-index: 1;"
               class="img-fluid herobg "
               :style="
                 this.$dir() == 'ltr '
-                  ? 'margin-right:0%;  -webkit-transform: scaleX(-1);'
+                  ? 'margin-right:0%;  '
                   : 'margin-left: 0%;'
               "
               src="~/assets/img/zahmaOLaAr.svg"
@@ -30,16 +29,18 @@
 
             <img
               v-else
-              style="z-index: 1"
+              style="z-index: 1;"
               class="img-fluid herobg"
               :style="
                 this.$dir() == 'rtl'
-                  ? 'margin-right: 0%;  -webkit-transform: scaleX(-1);'
+                  ? 'margin-right: 0%;  '
                   : 'margin-left: 0%;'
               "
               src="~/assets/img/zahmahero.svg"
               alt=""
             />
+          <div>
+           
           </div>
         </div>
 

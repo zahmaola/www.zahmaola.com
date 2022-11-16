@@ -112,3 +112,11 @@ h1 {
     border-color: #38B980;
   }
   /*# sourceMappingURL=main.css.map */
+
+  @media (min-width: 1470px){
+
+
+    #hero.container{
+        max-width: 1370px !important;
+    }
+  }
