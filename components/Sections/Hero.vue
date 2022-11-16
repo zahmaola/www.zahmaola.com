@@ -19,7 +19,7 @@
             style="z-index: 1"
             class="img-fluid herobg"
             :style="
-              this.$dir() == 'ltr ' ? 'margin-right:0%;  ' : 'margin-left: 0%;'
+              this.$dir() == 'ltr ' ? 'margin-right:0%;  ' : 'margin-left: -10%;'
             "
             src="~/assets/img/zahmaOLaAr.svg"
             alt=""
@@ -30,7 +30,7 @@
             style="z-index: 1"
             class="img-fluid herobg"
             :style="
-              this.$dir() == 'rtl' ? 'margin-right: 0%;  ' : 'margin-left: 0%;'
+              this.$dir() == 'rtl' ? 'margin-right: -10%;  ' : 'margin-left: 0%;'
             "
             src="~/assets/img/zahmahero.svg"
             alt=""
