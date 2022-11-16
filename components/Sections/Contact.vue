@@ -1,9 +1,9 @@
 <template>
   <section>
-    <div class="container-fluid g-0 ">
+    <div class="container-fluid ">
       <div class="row ">
         <div
-          class="col px-2"
+          class="col px-1"
           id="contact"
           :style="
             this.$dir() == 'rtl'
