@@ -16,7 +16,7 @@
           />
           <img
             v-if="this.$dir() == 'rtl'"
-            style="z-index: 1"
+            style="z-index: 1; margin-right:-10%"
             class="img-fluid herobg"
             :style="
               this.$dir() == 'ltr ' ? 'margin-right: -10%;  ' : 'margin-left: 0%;'
