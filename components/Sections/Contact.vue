@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="container-fluid card py-5">
+    <div class="container-fluid card border-0 py-5 px-5">
       <div class="row row-cols-1  ">
         <div
           class=""
@@ -11,8 +11,8 @@
               : 'background-position:left top;'
           "
         >
-          <div class="card p-0 border-0 bg-transparent">
-            <div class="card-body px-5">
+          <div class="card  border-0 bg-transparent">
+            <div class="card-body">
               <div class="row row-cols-1 row-cols-md-2">
                 <div class="col col-md-6">
                   <h1 class="fw-bolder py-5 ">{{ $t("contacttitle") }}</h1>
