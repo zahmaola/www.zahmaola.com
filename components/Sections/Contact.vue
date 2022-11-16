@@ -1,9 +1,9 @@
 <template>
   <section>
-    <div class="container-fluid ">
-      <div class="row ">
+    <div class="container-fluid card py-5">
+      <div class="row row-cols-1  ">
         <div
-          class="col px-1"
+          class=""
           id="contact"
           :style="
             this.$dir() == 'rtl'
@@ -11,7 +11,7 @@
               : 'background-position:left top;'
           "
         >
-          <div class="card p-3 border-0 bg-transparent">
+          <div class="card p-0 border-0 bg-transparent">
             <div class="card-body px-5">
               <div class="row row-cols-1 row-cols-md-2">
                 <div class="col col-md-6">
