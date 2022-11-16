@@ -27,7 +27,7 @@
 
           <img
             v-else
-            style="z-index: 1"
+            style="z-index: 1; margin-left:-10%"
             class="img-fluid herobg"
             :style="
               this.$dir() == 'rtl' ? 'margin-right: 0%;  ' : 'margin-left: -10%;'
