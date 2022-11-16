@@ -11,16 +11,13 @@
             <li class="list-inline-item fw-light px-5">
               {{ $t("footeroperated") }}
             </li>
-          </a>
-          
+          </a>         
 
           <li class="list-inline-item fw-light px-2">
 
              <a style="text-decoration: none; color: black"  :href="localePath('/privacy')"  >
               {{ $t("footerprivacy") }}
             </a>
-
-
            
           </li>
         </ul>
