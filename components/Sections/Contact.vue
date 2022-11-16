@@ -11,10 +11,10 @@
               : 'background-position:left top;'
           "
         >
-          <div class="card  border-0 bg-transparent">
+          <div class="card py-3  border-0 bg-transparent">
             <div class="card-body">
               <div class="row row-cols-1 row-cols-md-2">
-                <div class="col col-md-6">
+                <div class="col col-md-6 px-3 py-5">
                   <h1 class="fw-bolder py-5 ">{{ $t("contacttitle") }}</h1>
                   <div class="ps-4">
                     <a
