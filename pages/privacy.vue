@@ -83,6 +83,11 @@
         <p>{{ $t("trackingdesc3") }}</p>
         <p>{{ $t("trackingdesc4") }}</p>
         <p>{{ $t("trackingdesc5") }}</p>
+        <p>{{ $t("trackingdesc6") }}</p>
+      </div>
+      <div class="pb-5">
+        <h2 class="pb-2">{{ $t("featuresthatuseslocation") }}</h2>
+        <p>{{ $t("featuresthatuseslocation1") }}</p>
       </div>
     </div>
   </section>
