@@ -7,7 +7,6 @@
         <p>{{ $t("privacy2nd") }}</p>
         <p>
           {{ $t("privacy3rd") }}
-          <a href="https://www.privacypolicygenerator.info/">{{ $t("3rdlink") }}</a>.
         </p>
       </div>
 
