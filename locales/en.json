@@ -83,5 +83,8 @@
   "trackingdesc5": "D- Location Data.  We collect location data such as information about your device's location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to access the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your Location setting on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services.",
   "trackingdesc6": "D- Background location in causeway. When the app is closed we lunch the app and collect current location. we collect the current location and motion \n When the app is closed When always in use we collect the current location and motion also. When the app is not in use depend on the status if you are in the cause we will lanuch the application and collect the current device location only.",
   "featuresthatuseslocation": "Features that use location in the background",
-  "featuresthatuseslocation1": "1- Causeway time estimiation to cross from Saudi to Bahrain or Bahrain to Saudi"
+  "featuresthatuseslocation1": "1- Causeway time estimiation to cross from Saudi to Bahrain or Bahrain to Saudi",
+  "locationpermissionspolicy": "Location Permissions policy",
+  "locationpermissionspolicydesc1": "By using our application you will accept using your current location, your will be anonymous for us, we do not save or store any irrelevant data ( your name, age, your phone number ) only if you let us to do that, we store your location and we give you an id so we can track your trip.",
+  "locationpermissionspolicydesc2": "The location permission enable us to track your trip only, so we can do our estimiation to give you the most accurate time estimiation."
 }

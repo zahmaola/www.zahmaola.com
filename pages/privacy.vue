@@ -88,6 +88,15 @@
         <h2 class="pb-2">{{ $t("featuresthatuseslocation") }}</h2>
         <p>{{ $t("featuresthatuseslocation1") }}</p>
       </div>
+
+
+      <div class="pb-5">
+        <h2 class="pb-2">{{ $t("locationpermissionspolicy") }}</h2>
+        <p>{{ $t("locationpermissionspolicydesc1") }}</p>
+        <p>{{ $t("locationpermissionspolicydesc2") }}</p>
+      </div>
+
+
     </div>
   </section>
 </template>
