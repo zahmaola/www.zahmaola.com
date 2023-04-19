@@ -32,7 +32,7 @@
           <li class="list-inline-item mx-2">
             <a
               class="text-dark"
-              href="https://instagram.com/zahma_ola?igshid=YmMyMTA2M2Y="
+              href="https://www.instagram.com/zahmaola_/"
               title="Zahma O La instagram"
             >
               <i class="bi bi-instagram"></i>
@@ -41,14 +41,14 @@
           <li class="list-inline-item mx-2">
             <a
               class="text-dark"
-              href="https://twitter.com/zahma_ola"
+              href="https://twitter.com/zahmaola_?s=21"
               title="Zahma O La twitter"
             >
               <i class="bi bi-twitter"></i>
             </a>
           </li>
           <li class="list-inline-item mx-2">
-            <a class="text-dark" href="https://www.linkedin.com/company/86810077/admin/analytics/followers/"> <i class="bi bi-linkedin"></i> </a>
+            <a class="text-dark" href="https://www.linkedin.com/company/zahma-o-la/about/"> <i class="bi bi-linkedin"></i> </a>
           </li>
         </ul>
       </div>
