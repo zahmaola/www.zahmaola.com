@@ -96,7 +96,15 @@
         <p>{{ $t("locationpermissionspolicydesc2") }}</p>
       </div>
 
-
+      <div class="pb-5">
+        <h2 class="pb-2">{{ $t("chatprivacycontent") }}</h2>
+        <p>{{ $t("chatprivacycontentdesc1") }}</p>
+        <p>{{ $t("chatprivacycontentdesc2") }}</p>
+        <p>{{ $t("chatprivacycontentdesc3") }}</p>
+        <p>{{ $t("chatprivacycontentdesc4") }}</p>
+        <p>{{ $t("chatprivacycontentdesc5") }}</p>
+        <p>{{ $t("chatprivacycontentdesc6") }}</p>
+      </div>
     </div>
   </section>
 </template>
