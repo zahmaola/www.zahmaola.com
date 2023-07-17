@@ -19,15 +19,15 @@
                   <div class="ps-4">
                     <a
                       style="text-decoration: none; color: #222222"
-                      href="tel:+966-558412255"
+                      href="tel:+966-599753977"
                     >
                       <i class="bi bi-telephone fs-5 p-2" style="color: #38b980"></i
-                      ><span dir="ltr">+966 55 841 2255</span></a
+                      ><span dir="ltr">+966 59 975 3977</span></a
                     >
                     <hr width="50%" />
                     <a
                       style="text-decoration: none; color: #222222"
-                      href="mailto:contact@zahmaola.com.sa"
+                      href="mailto:contact@zahmaola.com"
                     >
                       <i class="bi bi-envelope fs-5  p-2" style="color: #38b980"></i>
                       Contact@zahmaola.com</a
