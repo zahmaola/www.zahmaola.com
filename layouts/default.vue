@@ -3,7 +3,7 @@
     <Header />
     <Nuxt />
     <a style="color: inherit;"
-      href="https://api.whatsapp.com/send?phone=+966599753977&text=أرغب في الاستفسار عن تطبيق زحمة أو لا"
+      href="https://api.whatsapp.com/send?phone=+966595554477&text=أرغب في الاستفسار عن تطبيق زحمة أو لا"
       class="layer_999 float d-flex align-items-center justify-content-center" target="_blank">
       <i class="bi text-white bi-whatsapp my-float"></i>
     </a>

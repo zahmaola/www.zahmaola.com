@@ -19,10 +19,10 @@
                   <div class="ps-4">
                     <a
                       style="text-decoration: none; color: #222222"
-                      href="tel:+966-599753977"
+                      href="tel:+966-595554477"
                     >
                       <i class="bi bi-telephone fs-5 p-2" style="color: #38b980"></i
-                      ><span dir="ltr">+966 59 975 3977</span></a
+                      ><span dir="ltr">+966 59 555 4477</span></a
                     >
                     <hr width="50%" />
                     <a
