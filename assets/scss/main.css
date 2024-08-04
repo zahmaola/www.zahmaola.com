@@ -152,6 +152,6 @@ h1 {
   }
 
 
-
- 
-
+.rtl h2, .rtl h4 {
+    font-family: 'Almarai', sans-serif;
+}
