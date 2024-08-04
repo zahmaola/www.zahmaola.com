@@ -155,3 +155,7 @@ h1 {
 .rtl h2, .rtl h4 {
     font-family: 'Almarai', sans-serif;
 }
+
+.rtl ul li {
+    font-family: 'Almarai', sans-serif;
+}
